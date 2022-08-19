@@ -1,4 +1,4 @@
-FROM calvincs.azureci.io/base-sssd:latest
+FROM calvincs.azurecr.io/base-sssd:latest
 LABEL maintainer="Chris Wieringa <cwieri39@calvin.edu>"
 
 # Set versions and platforms
