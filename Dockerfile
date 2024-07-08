@@ -2,7 +2,7 @@ FROM calvincs.azurecr.io/base-sssd:latest
 LABEL maintainer="Chris Wieringa <cwieri39@calvin.edu>"
 
 # Set versions and platforms
-ARG BUILDDATE=20240708-1
+ARG BUILDDATE=20240708-2
 
 # Do all run commands with bash
 SHELL ["/bin/bash", "-c"] 
